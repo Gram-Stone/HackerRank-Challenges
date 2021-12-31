@@ -40,7 +40,7 @@ function maxMinBinarySearch(k, arr) {
         [midpoint + 1, secondIndex],
         [midpoint - k - 1, midpoint + k - 2],
       ];
-      let [deltaFirstHalf, deltaSecondHalf] = [
+      const [deltaFirstHalf, deltaSecondHalf] = [
         sortedArr[firstHalf[1]] - sortedArr[firstHalf[0]],
         sortedArr[secondHalf[1]] - sortedArr[secondHalf[0]],
       ];
